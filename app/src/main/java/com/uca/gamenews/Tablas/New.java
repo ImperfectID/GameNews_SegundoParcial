@@ -9,6 +9,7 @@ public class New {
     public String description;
     public String body;
     public String name;
+    public String game;
 
 
     public New() {
@@ -69,4 +70,13 @@ public class New {
     public void setName(String name) {
         this.name = name;
     }
+
+    public String getGame() {
+        return game;
+    }
+
+    public void setGame(String game) {
+        this.game = game;
+    }
+
 }

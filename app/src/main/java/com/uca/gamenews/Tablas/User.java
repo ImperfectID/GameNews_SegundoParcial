@@ -4,7 +4,7 @@ import java.util.List;
 
 public class User {
 
-    public String _id;
+    public int _id;
     public String user;
     public String password;
     public List<New>  favoriteNews;
@@ -13,11 +13,11 @@ public class User {
     public User() {
     }
 
-    public String get_id() {
+    public int get_id() {
         return _id;
     }
 
-    public void set_id(String _id) {
+    public void set_id(int _id) {
         this._id = _id;
     }
 
