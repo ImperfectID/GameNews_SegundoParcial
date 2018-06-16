@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
+
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.uca.gamenews.MainActivity">
 
 
@@ -18,65 +18,81 @@
         android:visibility="gone" />
 
 
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="100dp"
 
-       <ImageView
-           android:layout_gravity="center_horizontal"
-           android:layout_marginTop="28dp"
-           android:layout_marginBottom="24dp"
-           android:layout_width="100dp"
-           android:layout_height="100dp"
-           android:src="@drawable/ic_launcher_background"
- />
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_launcher_background" />
 
-   <LinearLayout
-       android:layout_width="match_parent"
-       android:orientation="vertical"
-       android:layout_height="wrap_content">
-
-
-       <android.support.design.widget.TextInputLayout
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="52dp"
+        android:orientation="vertical">
 
 
-           <AutoCompleteTextView
-               android:layout_width="match_parent"
-               android:layout_height="match_parent"
-               android:inputType="text"
-               android:maxLines="1"
-               android:singleLine="true"
-               android:hint="@string/username_login"
-               />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
 
+            <AutoCompleteTextView
+
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/username_login"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true" />
 
 
-       </android.support.design.widget.TextInputLayout>
+        </android.support.design.widget.TextInputLayout>
 
 
-       <android.support.design.widget.TextInputLayout
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp">
 
 
+            <EditText
 
-           <EditText
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-
-               />
-
-
-
-
-
-
-       </android.support.design.widget.TextInputLayout>
-
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:imeActionId="6"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true" />
 
 
-   </LinearLayout>
+        </android.support.design.widget.TextInputLayout>
 
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Powered By: Rodrigo Martínez" />
+
+    </LinearLayout>
 
 </LinearLayout>
