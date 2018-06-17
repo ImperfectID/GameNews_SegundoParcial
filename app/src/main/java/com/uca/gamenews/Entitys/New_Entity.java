@@ -9,8 +9,9 @@ import io.reactivex.annotations.NonNull;
 @Entity
 public class New_Entity {
 
-    @PrimaryKey
     @NonNull
+    @PrimaryKey
+
     @ColumnInfo(name = "_id")
     private String _id;
     private String title;

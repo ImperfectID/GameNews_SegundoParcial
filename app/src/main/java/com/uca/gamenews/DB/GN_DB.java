@@ -1,4 +1,4 @@
-package com.uca.gamenews;
+package com.uca.gamenews.DB;
 
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.Room;

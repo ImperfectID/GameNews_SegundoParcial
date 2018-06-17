@@ -10,8 +10,9 @@ import io.reactivex.annotations.NonNull;
 @Entity
 public class User_Entity {
 
-    @PrimaryKey
     @NonNull
+    @PrimaryKey
+
     private String _id;
     private  String user;
     private String password;
