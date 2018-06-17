@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="@dimen/activity_horizontal_margin"
-    tools:context=".Card_View">
+    tools:context=".Activities.Gid_news$Card_View">
 
 
 
@@ -22,7 +22,7 @@
         android:src="@mipmap/ic_launcher_round"
         />
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/cv_title"
         android:textSize="18sp"
         android:layout_gravity="center"
         android:layout_width="wrap_content"

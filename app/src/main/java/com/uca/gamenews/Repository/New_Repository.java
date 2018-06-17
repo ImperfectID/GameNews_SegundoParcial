@@ -11,7 +11,7 @@ import com.uca.gamenews.API.API_GN;
 import com.uca.gamenews.API.New_Deserializer;
 import com.uca.gamenews.Daos.New_Dao;
 import com.uca.gamenews.Entitys.New_Entity;
-import com.uca.gamenews.GN_DB;
+import com.uca.gamenews.DB.GN_DB;
 import com.uca.gamenews.Tablas.New;
 
 import java.io.IOException;

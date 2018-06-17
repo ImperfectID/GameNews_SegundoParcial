@@ -20,4 +20,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="game_news">Game News</string>
+    <string name="buscar">buscar</string>
 </resources>

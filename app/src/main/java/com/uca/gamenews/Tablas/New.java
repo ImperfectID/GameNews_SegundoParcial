@@ -2,7 +2,7 @@ package com.uca.gamenews.Tablas;
 
 public class New {
 
-    public int _id;
+    public String _id;
     public String title;
     public String coverImage;
     public String created_date;
@@ -15,11 +15,11 @@ public class New {
     public New() {
     }
 
-    public int get_id() {
+    public String get_id() {
         return _id;
     }
 
-    public void set_id(int _id) {
+    public void set_id(String _id) {
         this._id = _id;
     }
 
